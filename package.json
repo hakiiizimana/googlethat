@@ -1,15 +1,20 @@
 {
   "name": "googlethat",
   "version": "1.0.0",
-  "description": "",
+  "description": "get google search results with googlethat",
   "main": "server.js",
   "scripts": {
     "dev": "nodemon server.js",
     "start": "node server.js",
     "lint": "eslint ."
   },
-  "keywords": [],
-  "author": "",
+  "keywords": [
+    "google-search-results",
+    "crawl4ai",
+    "serp",
+    "scraping"
+  ],
+  "author": "Hussein Hakizimana",
   "license": "ISC",
   "type": "module",
   "dependencies": {
