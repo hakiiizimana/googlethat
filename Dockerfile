@@ -34,9 +34,9 @@ RUN mkdir -p /root/.crawl4ai && chmod 777 /root/.crawl4ai && \
 # Update gunicorn to run as root (matching our USER) and add Node.js app
 RUN sed -i 's/user=appuser/user=root/g' /app/supervisord.conf && \
     printf '\n\
-[program:stophy]\n\
-command=node /stophy/server.js\n\
-directory=/stophy\n\
+[program:googlethat]\n\
+command=node /googlethat/server.js\n\
+directory=/googlethat\n\
 user=root\n\
 autorestart=true\n\
 priority=30\n\
