@@ -1,0 +1,123 @@
+{
+  "organic": [
+    {
+      "title": "Bitcoin",
+      "link": "https://en.wikipedia.org/wiki/Bitcoin",
+      "snippet": "Bitcoin (abbreviation: BTC; sign: ₿) is the first decentralized cryptocurrency. Based on a free-market ideology, bitcoin was invented in 2008.",
+      "position": 1
+    },
+    {
+      "title": "Bitcoin - Open source P2P money",
+      "link": "https://bitcoin.org/",
+      "snippet": "Bitcoin is an innovative payment network and a new kind of money. Get started with Bitcoin. Choose your wallet. Buy Bitcoin.",
+      "position": 2
+    },
+    {
+      "title": "Bitcoin 101: A Beginner's Guide",
+      "link": "https://www.vaneck.com/us/en/blogs/digital-assets/bitcoin-101-a-beginners-guide/",
+      "snippet": "Bitcoin (BTC) is a decentralized digital currency, without a central bank or single administrator, that can be sent from user to user on the peer-to-peer ...",
+      "position": 3
+    },
+    {
+      "title": "What Is Bitcoin? How to Buy, Mine, and Use It",
+      "link": "https://www.investopedia.com/terms/b/bitcoin.asp",
+      "snippet": "Bitcoin is a decentralized digital currency that uses blockchain technology to enable peer-to-peer transactions without the need for a central authority ...",
+      "position": 4,
+      "sitelinks": [
+        {
+          "title": "What Is Bitcoin?",
+          "link": "https://www.investopedia.com/terms/b/bitcoin.asp#toc-what-is-bitcoin"
+        },
+        {
+          "title": "Understanding Bitcoin",
+          "link": "https://www.investopedia.com/terms/b/bitcoin.asp#toc-understanding-bitcoin"
+        },
+        {
+          "title": "Mining Bitcoin",
+          "link": "https://www.investopedia.com/terms/b/bitcoin.asp#toc-how-to-mine-bitcoin"
+        },
+        {
+          "title": "Using Bitcoin",
+          "link": "https://www.investopedia.com/terms/b/bitcoin.asp#toc-how-to-use-bitcoin"
+        }
+      ]
+    },
+    {
+      "title": "What is Bitcoin?",
+      "link": "https://www.coinbase.com/learn/crypto-basics/what-is-bitcoin",
+      "snippet": "Bitcoin is a decentralized digital currency used for encrypted, peer-to-peer transactions without needing a central bank.",
+      "position": 5
+    },
+    {
+      "title": "Bitcoin: What is it and how do you use it? - BBC Bitesize",
+      "link": "https://www.bbc.co.uk/bitesize/articles/zfsvy9q",
+      "snippet": "Bitcoin is a form of digital money. This means it doesn't have a physical form. Instead, units of digital currency are traded over a computer network that has ...",
+      "position": 6
+    },
+    {
+      "title": "Bitcoin selling pressure intensifies. How does ...",
+      "link": "https://finance.yahoo.com/personal-finance/investing/article/what-is-bitcoin-130000730.html",
+      "snippet": "Bitcoin (BTC-USD) is a virtual currency that's used as an investment and a form of payment for goods and services.",
+      "position": 7,
+      "date": "Jan 30, 2026"
+    },
+    {
+      "title": "What Is Bitcoin and Should I Invest In It?",
+      "link": "https://www.youtube.com/watch?v=zqWp3GY9pVc",
+      "snippet": "",
+      "position": 8
+    },
+    {
+      "title": "Making sense of bitcoin, cryptocurrency and blockchain",
+      "link": "https://www.pwc.com/us/en/industries/financial-services/fintech/bitcoin-blockchain-cryptocurrency.html",
+      "snippet": "Bitcoin is the name of the most recognized cryptocurrency, the one for which blockchain technology, as we currently know it, was created.",
+      "position": 9
+    },
+    {
+      "title": "How Does Bitcoin Work? - Gemini",
+      "link": "https://www.gemini.com/cryptopedia/what-is-bitcoin-and-how-does-it-work",
+      "snippet": "As a form of virtual currency, Bitcoin exists solely online, functioning through a transparent ledger known as Bitcoin blockchain.",
+      "position": 10
+    }
+  ],
+  "peopleAlsoAsk": [
+    {
+      "question": "What exactly is Bitcoin in simple terms?"
+    },
+    {
+      "question": "How much is $1 Bitcoin in US dollars?"
+    },
+    {
+      "question": "What happens if I put $100 in Bitcoin?"
+    },
+    {
+      "question": "How exactly do you make money from Bitcoin?"
+    }
+  ],
+  "relatedSearches": [
+    {
+      "query": "How much is Bitcoin"
+    },
+    {
+      "query": "What is bitcoin mining"
+    },
+    {
+      "query": "What is bitcoin price"
+    },
+    {
+      "query": "What is bitcoin and how does it work"
+    },
+    {
+      "query": "What is Bitcoin investment"
+    },
+    {
+      "query": "What is Bitcoin in simple words"
+    },
+    {
+      "query": "Is Bitcoin safe"
+    },
+    {
+      "query": "What is bitcoin wallet"
+    }
+  ]
+}

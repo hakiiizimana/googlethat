@@ -1,6 +1,5 @@
 import axios from "axios";
 import * as cheerio from "cheerio";
-// import { CRAWL4AI_URL } from "./config/env.js";
 
 export function buildUrl({ query, tbs, hl = "en", gl = "us", page = 1 }) {
   if (!query) throw new Error("Query is required");
@@ -39,6 +38,17 @@ export function getPayload(url) {
       type: "BrowserConfig",
       params: { headless: true },
     },
+    crawler_config: {
+      type: "CrawlerRunConfig",
+      params: { cache_mode: "BYPASS" },
+    },
+  };
+}
+
+export function getPayloadForMultipleUrls(urls) {
+  return {
+    urls: urls,
+    browser_config: { type: "BrowserConfig", params: { headless: true } },
     crawler_config: {
       type: "CrawlerRunConfig",
       params: { cache_mode: "BYPASS" },
@@ -245,4 +255,15 @@ export async function searchGoogle(payload) {
   if (relatedSearches.length) output.relatedSearches = relatedSearches;
 
   return output;
+}
+
+export async function getMarkdownFromUrls(urls) {
+  const payload = getPayloadForMultipleUrls(urls);
+  const res = await client.post(`/crawl`, payload);
+  const results = res.data.results;
+  const formatted = results.map((result, index) => ({
+    url: urls[index],
+    markdown: result.markdown?.raw_markdown ?? null,
+  }));
+  return formatted;
 }
